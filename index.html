@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BoxIcons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <!-- favicon -->
   <link rel="shortcut icon" href="/IMG/favicon.png" type="image/x-icon">
   <!-- CSS -->
@@ -13,21 +15,53 @@
 
 <body>
 
-  <header class="container-header">
+  <!-- --------------------------------------------------------------- -->
+  <header class="container">
 
-    <!-- <div class="page-header topnav"> -->
+    <div class="page-header">
+      <div class="logo">
+        <a href="#logo">Header Logo</a>
+      </div>
 
-    <div class="topnav">
+      <input type="checkbox" id="click">
+      <label for="click" class="mainicon">
+        <div class="menu">
+          <i class='bx bx-menu'></i>
+        </div>
+      </label>
 
-      <a href="#Home" class="split">Home</a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skills</a></li>
+      </ul>
+    </div>
+  </header>
+  <!-- --------------------------------------------------------------- -->
+  <section class="container section-color">
+    <div class="main">
 
-      <a href="#News">News</a>
-      <a href="#Contact">Contact</a>
-      <a href="#Help">Help</a>
+      <div class="detail">
+        <h1>This website is awasome</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem sapiente accusantium veniam
+          quisquam voluptate illo laboriosam voluptatum, inventore ipsam. Perspiciatis, nihil assumenda. Quam
+          consectetur minus perspiciatis ex non obcaecati.</p>
+        <!-- <button class="button">
+          <a href="www.google.com">Google</a>
+        </button> -->
+        <a href="https://www.google.com" target="_blank"><button class="button">Ir a Google</button></a>
+      </div>
+
+      <div class="img-sec">
+        <div class="img">
+          <img src="./IMG/IMG.jpeg" alt="" class="img-w">
+        </div>
+      </div>
 
     </div>
-    <!-- </div> -->
-  </header>
+  </section>
+  <!-- --------------------------------------------------------------- -->
+
 
 </body>
 
